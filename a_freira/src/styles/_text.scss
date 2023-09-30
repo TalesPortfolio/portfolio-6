@@ -1,0 +1,47 @@
+.cast_crew_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c22;
+    width: 100%;
+    color: #f1e6de;
+    padding:  30px;
+
+
+    
+    &__img{
+
+        img{
+            max-width: 200px;
+            padding-bottom: 5px;
+        }
+
+        @media (max-width:425px) {
+            img{
+                max-width: 160px;
+            }
+            
+        }
+        
+    }
+
+
+    &__text{
+        text-align: justify;
+        max-width: 57VW;
+        padding-bottom: 100px;
+
+        p{
+            font-size: 18px;
+            margin-top: 20px;
+            letter-spacing: 0.5px;
+            padding: 3px;
+
+            @media (max-width:425px) {
+                font-size: 14px;
+                padding: 0;
+            }
+        }
+    }
+}
